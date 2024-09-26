@@ -35,6 +35,14 @@ public class StudentManagement {
             li.expDate = new Date();
             System.out.println(person.getLicence(li));
             System.out.println(person.hasControltechnique(li.expDate));
+            School schol = new School("muhabura");
+              
+            System.out.println(schol.schoolName);
+            System.out.println(schol.schoolClassName);
+            
+            School.anounce("Today there is a meeting at main hall pllease evryone is supposed to come with student card");
+            
+            
        
             
 //            System.out.println(person.getAge());
